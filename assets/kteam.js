@@ -3,6 +3,11 @@ function getCookie(name){
   return matches ? decodeURIComponent(matches[1]) : undefined; 
 }
 
+
+if(window.innerWidth<600)
+	location.href='https://m.kteam.tk/mobile';
+
+
 if(window.location.pathname =='/ban'){
         var tic = new Date();
         document.cookie = "ban=true; max-age=3600"
