@@ -5,7 +5,7 @@ function getCookie(name){
 
 
 if(window.innerWidth<600)
-	location.href='https://m.kteam.tk/mobile';
+	location.href='https://m.kteam.tk/feed';
 
 
 if(window.location.pathname =='/ban'){
