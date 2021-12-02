@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_USER_AGENT} (?i:midp|samsung|iphone|android)
+RewriteRule ^(/)?$ http://m.kteam.tk/ [R=301]
