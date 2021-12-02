@@ -4,7 +4,7 @@ function getCookie(name){
 }
 
 
-if(window.innerWidth<600){
+if(window.innerWidth<=600){
 	window.location.href='https://m.kteam.tk/feed';
 }
 
